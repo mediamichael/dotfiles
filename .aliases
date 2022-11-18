@@ -15,7 +15,7 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias p="cd ~/Documents/DEV"
 alias dev="cd ~/Documents/DEV"
-alias img="cd ~/Documents/Photos"
+alias dot="cd ~/Documents/DEV/dotfiles"
 alias gif="cd ~/Documents/Photos"
 alias g="git"
 
