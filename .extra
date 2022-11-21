@@ -6,3 +6,24 @@ git config --global user.name "$GIT_AUTHOR_NAME"
 GIT_AUTHOR_EMAIL="mimcconnell@google.com"
 GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
+
+
+alias dot="cd ~/Documents/DEV/dotfiles"
+alias dev="cd ~/Documents/DEV"
+alias img="cd ~/Documents/Photos"
+alias gif="cd ~/Documents/Photos"
+alias d='cd ~/Google\ Drive'
+alias dd='cd ~/Google\ Drive/Downloads'
+alias p="cd ~/Documents/DEV"
+alias g="git"
+
+# mv ~/.gitconfig ~/Documents/DEV/dotfiles/.gitconfig
+# ln -s ~/Documents/DEV/dotfiles/.gitconfig ~/.gitconfig
+# ln -s /Users/mimcconnell/Documents/DEV/dotfiles ~/
+# ln -s /usr/local/bin ~/.path
+# export PATH="/usr/local/bin:$PATH"
+
+# Remove DIR Users/mimcconnell/bin from PATH variable
+# PATH=$(echo "$PATH" | sed -e 's/:\/Users\/mimcconnell\/bin$//')
+# Add new bin path
+# export PATH="/Users/mimcconnell/Documents/DEV/dotfiles/bin:$PATH"
