@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd "$(dirname "${BASH_SOURCE}")";
+cd ~/Documents/DEV/dotfiles;
 
 git pull origin main;
 
