@@ -17,11 +17,10 @@ alias dd='cd ~/Google\ Drive/Downloads'
 alias p="cd ~/Documents/DEV"
 alias g="git"
 
-ln -s /Users/mimcconnell/Documents/DEV/dotfiles ~/dotfiles
-
+# TODO: Move dotfile folder 
+# ln -s /Users/mimcconnell/Documents/DEV/dotfiles ~/dotfiles
 # mv ~/.gitconfig ~/Documents/DEV/dotfiles/.gitconfig
 # ln -s ~/Documents/DEV/dotfiles/.gitconfig ~/.gitconfig
-
 # sudo ln -s /usr/local/bin ~/Documents/DEV/dotfiles/.path
 # export PATH="/usr/local/bin:$PATH"
 
